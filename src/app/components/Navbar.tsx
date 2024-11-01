@@ -1,4 +1,5 @@
-"use clint";
+
+ "use client"
 function Navbar() {
   return (
     <div>
