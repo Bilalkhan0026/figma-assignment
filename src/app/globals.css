@@ -1,0 +1,328 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+#main{
+  width: 1440px;
+  height: 1132px;
+  top: -590;
+  left: -790;
+  background-color: #252b42;
+}
+#main .nav1{
+  width: 1322px;
+  height: 91px;
+  margin-left: 59px;
+  display: flex;
+  align-items: center;
+  background-color: #252b42;
+  color: white;
+}
+
+.logo {
+  width: 187px;
+  height: 58px;
+  margin-top: 17px;
+  margin-left: 136px;
+}
+#button1 {
+  width: 815px;
+  height: 58px;
+  top: 16px;
+  margin-left: 364px;
+  display: flex;
+}
+.nav1 ul {
+  width: 275px;
+  height: 24px;
+  display: flex;
+  gap: 21px;
+  margin-top: 17px;
+}
+
+#sign {
+  width: 189px;
+  height: 52px;
+  left: 626px;
+  gap: 45px;
+  margin-top: 3px;
+  background-color: transparent;
+  color: rgb(194, 194, 194);
+}
+#login {
+  width: 110px;
+  height: 52px;
+  text-align: center;
+  padding-top: 15px;
+  padding-left: 25px;
+  padding-bottom: 15px;
+  padding-right: 25px;
+  gap: 15px;
+  background-color: #23a6f0;
+
+  color: #ffffff;
+  border-radius: 5px;
+}
+#mbox1 {
+  width: 1046px;
+  height: 1028px;
+  top: 104px;
+  margin-left: 197px;
+   padding-top: 80px;
+  padding-bottom: 80px; 
+  gap: 80px;
+  text-align: center;
+  
+}
+/* #######  1 main 2 b0x */
+#mbox1 #mbox2{
+  width: 701px;
+  height: 496px;
+  margin: auto;
+  padding-top:40px;
+  padding-bottom: 40px;
+
+}
+#mbox2 h1{
+  width: 542px;
+  height: 160px;
+  margin: auto;
+  font-weight: 700;
+  font-size: 58px;
+  text-align: center;
+  color: #FFFFFF;
+
+
+}
+
+
+/* ######### 1 main 3 box  */
+#mbox1 .mainbo{
+  width: 1046px;
+  height: 292px;
+  gap: 30px;
+  display: flex;
+ 
+}
+
+#mbox1 h5{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+  gap: 40px;
+  color: #23a6f0; 
+  } 
+#mbox2 h4{
+  width: 536px;
+  height: 60px;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+
+  text-align: center;
+  color: #ffffff;
+}
+#mbox2 .button{
+  width: 365px;
+  height: 52px;
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin: auto;
+  gap: 8px;
+}
+#mbox1 .but1{
+  width: 193px;
+  height: 52px;
+  border-radius: 5px;
+  padding-top: 15px;
+  padding-right: 40px;
+  padding-bottom: 15px;
+  padding-left: 40px;
+  gap: 8px;
+  background-color: #23a6f0;
+  color: #FFFFFF;
+}
+#mbox1 .but2{
+  width: 166px;
+  height: 52px;
+  border-radius: 5px;
+  border: 1px solid #23a6f0;
+  padding-top: 15px;
+  padding-right: 40px;
+  padding-bottom: 15px;
+  padding-left: 40px;
+  gap: 8px;
+  color: #23A6F0;
+  background-color: transparent;
+}
+ .mainbo{
+  width: 1046px;
+  height: 292px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  gap: 30px;
+  display: flex;
+} 
+.mainbo .boxm1{
+  width: 328px;
+  height: 292px;
+  padding-top: 35px;
+  padding-right: 40px;
+  padding-bottom: 35px;
+  padding-left: 40px;
+  gap: 20px;
+  background-color: #FFFFFF;
+  ;
+}
+
+.mainbo .boxm1 .box1{
+  width: 70px;
+  height: 76px;
+  border-radius: 10px;
+  padding-top: 22px;
+  padding-right: 19px;
+  padding-bottom: 22px;
+  padding-left: 19px;
+  gap: 15px;
+  background-color: #ffdcd1;
+}
+.mainbo .boxm1 h4{
+  width: 135px;
+  height: 24px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color:#252B42;
+}
+.line1{
+  width: 50px;
+  height: 2px;
+  margin-left: 20px;
+  background-color: #E74040;
+}
+.mainbo .boxm1 p{
+  width: 222px;
+  height: 60px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #737373;
+}
+
+/* 333333333333##### box 2 */
+
+.mainbo .boxm2{
+  width: 328px;
+  height: 292px;
+  padding-top: 35px;
+  padding-right: 40px;
+  padding-bottom: 35px;
+  padding-left: 40px;
+  gap: 20px;
+  background-color: #FFFFFF;
+  
+}
+
+.mainbo .boxm2 .box2{
+  width: 70px;
+  height: 76px;
+  border-radius: 10px;
+  padding-top: 22px;
+  padding-right: 19px;
+  padding-bottom: 22px;
+  padding-left: 19px;
+  gap: 15px;
+  background-color: #B9EAA8;
+}
+.mainbo .boxm2 h4{
+  width: 168px;
+  height: 24px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color:#252B42;
+}
+  .line2{
+    width: 50px;
+    height: 2px;
+    margin-left: 20px;
+    background-color: #E74040;
+}
+.mainbo .boxm2 p{
+  width: 222px;
+  height: 60px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #737373;
+}
+
+/* ######## box 3 */
+
+
+.mainbo .boxm3{
+  width: 328px;
+  height: 292px;
+  padding-top: 35px;
+  padding-right: 40px;
+  padding-bottom: 35px;
+  padding-left: 40px;
+  gap: 20px;
+  background-color: #23A6F0;
+  
+}
+
+.mainbo .boxm3 .box3{
+  width: 70px;
+  height: 76px;
+  border-radius: 10px;
+  padding-top: 22px;
+  padding-right: 19px;
+  padding-bottom: 22px;
+  padding-left: 19px;
+  gap: 15px;
+  background-color: #FFFFFF;;
+}
+.mainbo .boxm3 h4{
+  width: 168px;
+  height: 24px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.line3{
+     width: 50px;
+     height: 2px;
+     margin-left: 20px;
+     background-color: #FFFFFF;
+    
+}
+.mainbo .boxm3 p{
+  width: 222px;
+  height: 60px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px; 
+  color: #FFFFFF;
+}
+
+
